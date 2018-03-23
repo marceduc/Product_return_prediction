@@ -1,0 +1,13 @@
+Name of Quantlet: prediction_neural_network
+
+Published in: SPL
+
+Description: 'Predicts the binary target variable product returns for a validation set by training a neural network. Cross-validation and parameter tuning are conducted to obtain the optimal parameters and thus achieve the best prediction accuracy when later on fitting the trained classifier on the unlabeled test set'
+
+Keywords: machine-learning, neural-network, prediction, classification, cross-validation, parameter-tuning, accuracy-measure, AUC
+
+Author: Carolin Kunze, Marc-Andre Scheu, Kevin Noessler
+
+Datafile: base_train3.csv
+
+Output: nn_plot_04_01.png

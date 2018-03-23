@@ -1,0 +1,13 @@
+Name of Quantlet: create_input
+
+Published in: SPL
+
+Description: "Creates data set ready for model training. Loads and cleans raw data. Creates new features. Creates fold column for k-folds. Uses weight of evidence to transform categorical into numeric data."
+
+Keywords: machine-learning, data-cleaning, feature-engineering, weight-of-evidence, correlation
+
+Author: Marc-Andre Scheu
+
+Datafile: BADS_WS1718_class_20180115.csv, BADS_WS1718_known.csv, clean_col.csv
+
+Output: base_train3.csv, base_test3.csv, base_class3.csv, colors.csv

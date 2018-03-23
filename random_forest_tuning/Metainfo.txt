@@ -1,0 +1,13 @@
+Name of Quantlet: random_forest_tuning
+
+Published in: SPL
+
+Description: "Determines optimal number of trees and maximal allowed features per tree for a random forest. Saves csv-file with feature importances"
+
+Keywords: machine-learning, random-forest, prediction, classification, cross-validation, parameter-tuning, accuracy-measure, AUC
+
+Author: Marc-Andre Scheu
+
+Datafile: base_train3.csv
+
+Output: OBB_Err_ntree.png, AUC_mtry.png, Feat_importance.csv

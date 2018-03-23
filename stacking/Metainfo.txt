@@ -1,0 +1,14 @@
+Name of Quantlet: stacking
+
+Published in: SPL
+
+Description: "Trains several first stage classifier to create predictions as input for a ensemble model. Calculates area under the curve values for different models over the model building process. Calculates associated costs to find cost optimal decision threshold for all models. Predicts cost optimal product returns."
+
+
+Keywords: machine-learning, stacking, ensemble, cost-sensitive, random-forest, neural-network, login, decision-tree, classification, cross-validation, parameter-tuning, accuracy-measure, AUC
+
+Author:  Marc-Andre Scheu
+
+Datafile: base_train3.csv, base_test3.csv, base_class3.csv
+
+Output: ts_avg_cost.csv, predictions.csv, Final_aucs_retuned.csv, auc_plot.png
