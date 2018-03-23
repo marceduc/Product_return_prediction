@@ -163,7 +163,6 @@ costs     = apply(cbind(tr_meta[, models], meta_tr_yhats), 2, cost_tr, true_y = 
 # returns lowest costs per model
 apply(costs, 2, max)
 # returns threshold in % for lowest cost
-apply(costs, 2, which.max)
 opt_th = apply(costs, 2, which.max)
 
 # calculate test set cost matrix for all models and thresolds on a range from [0,1]

@@ -1,5 +1,6 @@
 
 library(klaR)
+library(caret)
 source("color.R")
 rm(list = ls())
 source("input_functions.R")
@@ -25,7 +26,6 @@ class = df[is.na(df$return), ]
 rm(df)
 
 # split data into training and test set
-library(caret)
 set.seed(420)
 inTrainingSet = createDataPartition(known$return, p = 0.75, list = FALSE)
 tr            = known[inTrainingSet, ]
@@ -46,7 +46,7 @@ factor_feats = names(tr)[which(unlist(sapply(tr, class)) == "factor")]
 
 # create subset of training set to estimate WOE
 set.seed(100)
-woe.idx = createDataPartition(y = tr$return, p = 0.25, list = FALSE)
+woe.idx   = createDataPartition(y = tr$return, p = 0.25, list = FALSE)
 
 # decode return level 1 as 'level 1' which will be used as good risk
 tr$return = factor(tr$return, levels = c("1", "0"))
@@ -54,11 +54,11 @@ tr$return = factor(tr$return, levels = c("1", "0"))
 # calculate class woes
 woe.object = woe(return ~ ., data = tr[woe.idx, ], zeroadj = 0.5)
 # change to original format of return
-tr$return = as.integer(as.character(tr$return))
+tr$return  = as.integer(as.character(tr$return))
 
 # apply woe to all datasets
 datasets = list(class, tr, ts)
-ds = lapply(datasets, function(x) predict(woe.object, newdata = x, replace = T))
+ds       = lapply(datasets, function(x) predict(woe.object, newdata = x, replace = T))
 
 # save prepared data to avoid processing time
 write.csv(ds[[1]], "base_class3.csv", row.names = F)
