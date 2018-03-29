@@ -1,6 +1,6 @@
-Name of Quantlet: stacking
+Name of Quantlet: SPL_stacking
 
-Published in: SPL
+Published in: 'Statistical programming languages - Student Project on ''How Can The Prediction Of Product Returns Reduce Costs In E-commerce?'' '
 
 Description: "Trains several first stage classifier to create predictions as input for a ensemble model. Calculates area under the curve values for different models over the model building process. Calculates associated costs to find cost optimal decision threshold for all models. Predicts cost optimal product returns."
 
