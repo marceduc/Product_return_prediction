@@ -1,0 +1,11 @@
+Name of Quantlet: 'SPL_prediction_regularized_logistic_regression'
+
+Published in: 'Statistical programming languages - Student Project on ''How Can The Prediction Of Product Returns Reduce Costs In E-commerce?'' '
+
+Description: 'Predicts the binary target variable product returns for a validation set by training a logistic regression model. Cross-validation and parameter tuning are conducted to obtain the optimal parameters and thus achieve the best prediction accuracy when later on fitting the trained classifier on the unlabeled test set'
+
+Keywords: machine-learning, regularized-logistic-regression, lasso, ridge-regression, prediction, classification, cross-validation, parameter-tuning, accuracy-measure, AUC
+
+Author: Carolin Kunze, Marc-Andre Scheu, Kevin Noessler
+
+Datafile: base_train3.csv
