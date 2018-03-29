@@ -1,6 +1,6 @@
-Name of Quantlet: random_forest_tuning
+Name of Quantlet: SPL_random_forest_tuning
 
-Published in: SPL
+Published in: 'Statistical programming languages - Student Project on ''How Can The Prediction Of Product Returns Reduce Costs In E-commerce?'' '
 
 Description: "Determines optimal number of trees and maximal allowed features per tree for a random forest. Saves csv-file with feature importances"
 
