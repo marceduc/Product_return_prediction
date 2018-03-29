@@ -1,0 +1,13 @@
+Name of Quantlet: SPL_baseline_models
+
+Published in: 'Statistical programming languages - Student Project on ''How Can The Prediction Of Product Returns Reduce Costs In E-commerce?'' '
+
+Description: "Trains several classfiers on different feature sets that have been created ad hoc to get a base line to assess model improvement over the model building process. Returns area under the curve estimates for each model."
+
+Keywords: machine-learning, decision-tree, random-forest, logit, lasso, regularization, neural-network, prediction
+
+Author: Carolin Kunze, Marc-Andre Scheu, Kevin Noessler 
+
+Datafile: BADS_WS1718_class_20180115.csv, BADS_WS1718_known.csv
+
+Output: full_prepared.csv
