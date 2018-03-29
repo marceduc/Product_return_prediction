@@ -1,6 +1,6 @@
-Name of Quantlet: create_input
+Name of Quantlet: SPL_create_input
 
-Published in: SPL
+Published in: 'Statistical programming languages - Student Project on ''How Can The Prediction Of Product Returns Reduce Costs In E-commerce?'' '
 
 Description: "Creates data set ready for model training. Loads and cleans raw data. Creates new features. Creates fold column for k-folds. Uses weight of evidence to transform categorical into numeric data."
 
