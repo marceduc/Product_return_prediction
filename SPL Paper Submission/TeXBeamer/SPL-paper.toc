@@ -1,0 +1,17 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Literature Review}{2}
+\contentsline {section}{\numberline {3}Methodology}{3}
+\contentsline {section}{\numberline {4}Experimental Setup}{5}
+\contentsline {subsection}{\numberline {4.1}Data}{5}
+\contentsline {subsection}{\numberline {4.2}Feature Engineering}{6}
+\contentsline {subsection}{\numberline {4.3}Predictive Models}{12}
+\contentsline {subsubsection}{\numberline {4.3.1}Neural Network and Logistic Regression}{12}
+\contentsline {subsubsection}{\numberline {4.3.2}Tree Based Models}{19}
+\contentsline {subsection}{\numberline {4.4}Stacking and Cost Sensitive Learning}{24}
+\contentsline {section}{\numberline {5}Empirical Results}{26}
+\contentsline {section}{\numberline {6}Conclusion}{29}
+\contentsline {section}{Appendices}{30}
+\contentsline {section}{\numberline {A}Figures}{31}
+\contentsline {section}{\numberline {B}Tables}{34}
+\contentsline {section}{References}{35}

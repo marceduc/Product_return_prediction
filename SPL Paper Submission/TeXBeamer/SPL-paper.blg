@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SPL-paper.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References.bib
+Warning--entry type for "WinNT1" isn't style-file defined
+--line 109 of file References.bib
+Warning--entry type for "WinNT2" isn't style-file defined
+--line 117 of file References.bib
+Warning--entry type for "WinNT4" isn't style-file defined
+--line 126 of file References.bib
+Warning--entry type for "WinNT3" isn't style-file defined
+--line 135 of file References.bib
+Warning--entry type for "WinNT5" isn't style-file defined
+--line 144 of file References.bib
+Warning--entry type for "WinNT6" isn't style-file defined
+--line 152 of file References.bib
+Repeated entry---line 427 of file References.bib
+ : @book{nielsen2015neural
+ :                        ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in lohse2000consumer
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in urbanke2015predicting
+Warning--No journal in wod1985weight
+You've used 44 entries,
+            6951 wiz_defined-function locations,
+            1524 strings with 17960 characters,
+and the built_in function-call counts, 85707 in all, are:
+= -- 10993
+> -- 665
+< -- 4130
++ -- 4107
+- -- 91
+* -- 5328
+:= -- 15506
+add.period$ -- 191
+call.type$ -- 44
+change.case$ -- 771
+chr.to.int$ -- 0
+cite$ -- 91
+duplicate$ -- 2055
+empty$ -- 3233
+format.name$ -- 1012
+if$ -- 16504
+int.to.chr$ -- 0
+int.to.str$ -- 136
+missing$ -- 0
+newline$ -- 1068
+num.names$ -- 352
+pop$ -- 1523
+preamble$ -- 1
+purify$ -- 176
+quote$ -- 0
+skip$ -- 5828
+stack$ -- 0
+substring$ -- 4494
+swap$ -- 1208
+text.length$ -- 136
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 4400
+warning$ -- 4
+while$ -- 358
+width$ -- 0
+write$ -- 1301
+(There was 1 error message)
